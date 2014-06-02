@@ -1,0 +1,35 @@
+{
+    "name": "node-package-skeleton",
+    "version": "0.0.1",
+    "main": "./lib/node-package-skeleton.js",
+    "description": "A skeleton nodejs package with basic structure",
+    "author": {
+        "name": "Oleg Cherniy",
+        "email": "oleg.cherniy@gmail.com"
+    },
+    "homepage": "https://github.com/ria-com/node-package-skeleton",
+    "directories": {
+        "lib": "./lib"
+    },
+        "licenses": [
+        "MIT"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+        "jasmine-node": ">1.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ria-com/node-package-skeleton"
+    },
+    "engines": {
+        "node": ">0.4.x"
+    },
+    "scripts": {
+        "test": "node ./node_modules/jasmine-node/lib/jasmine-node/cli.js spec"
+    },
+    "bugs": {
+        "url": "https://github.com/ria-com/node-package-skeleton/issues"
+    }
+}
