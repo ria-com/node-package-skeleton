@@ -12,9 +12,9 @@ quick start
       (example fragment of package.json file):
 
 ```javascript
-    "dependencies": {
-        "mysql-query": "git://github.com/ria-com/node-package-skeleton.git#master"
-    }
+"dependencies": {
+    "node-package-skeleton": "git://github.com/ria-com/node-package-skeleton.git#master"
+}
 ```
 
 **Install the package:**
