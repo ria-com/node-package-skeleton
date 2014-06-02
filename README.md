@@ -24,7 +24,7 @@ quick start
 **Use in the project:**
 
 ```javascript
-    var hello = require('node-package-skeleton');
+var hello = require('node-package-skeleton');
 
 console.log(hello('world'));
 ```
