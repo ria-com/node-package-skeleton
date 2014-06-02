@@ -7,7 +7,7 @@ A skeleton nodejs package with basic structure
 quick start
 ===========
 
-**Edit the default package.json file: **
+**Edit the default package.json file:**
 
       (example fragment of package.json file):
 
