@@ -7,13 +7,29 @@ A skeleton nodejs package with basic structure
 quick start
 ===========
 
-```javascript
-      var hello = require('node-package-skeleton');
+**Edit the default package.json file: **
 
-      console.log(hello('world'));
+      (example fragment of package.json file):
+
+```javascript
+    "dependencies": {
+        "mysql-query": "git://github.com/ria-com/node-package-skeleton.git#master"
+    }
+```
+
+**Install the package:**
+
+    my-project-dir$ npm install
+
+**Use in the project:**
+
+```javascript
+var hello = require('node-package-skeleton');
+
+console.log(hello('world'));
 ```
 
 testing
 =======
-      my-module-dir$ npm install
-      my-module-dir$ npm test
+    node-package-skeleton-module-dir$ npm install
+    node-package-skeleton-module-dir$ npm test
