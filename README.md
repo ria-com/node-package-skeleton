@@ -9,7 +9,7 @@ quick start
 
 **Edit the default package.json file:**
 
-      (example fragment of package.json file):
+(example fragment of package.json file):
 
 ```javascript
 "dependencies": {
@@ -24,7 +24,7 @@ quick start
 **Use in the project:**
 
 ```javascript
-var hello = require('node-package-skeleton');
+    var hello = require('node-package-skeleton');
 
 console.log(hello('world'));
 ```
